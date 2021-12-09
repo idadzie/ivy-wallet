@@ -31,7 +31,7 @@ val RaleWay = FontFamily(
 
 private const val H1 = 40
 private const val H2 = 32
-private const val B1 = 18
+private const val B1 = 20
 private const val B2 = 16
 private const val CAPTION = 12
 
