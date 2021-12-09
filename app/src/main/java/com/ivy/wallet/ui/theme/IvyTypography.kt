@@ -29,57 +29,63 @@ val RaleWay = FontFamily(
         Font(R.font.raleway_extrabold, FontWeight.ExtraBold),
 )
 
+private const val H1 = 40
+private const val H2 = 32
+private const val B1 = 18
+private const val B2 = 16
+private const val CAPTION = 12
+
 val Typo = IvyTypography(
         h1 = TextStyle(
                 fontFamily = RaleWay,
                 fontWeight = FontWeight.Black,
-                fontSize = 42.sp
+                fontSize = H1.sp
         ),
         h2 = TextStyle(
                 fontFamily = RaleWay,
                 fontWeight = FontWeight.Normal,
-                fontSize = 32.sp
+                fontSize = H2.sp
         ),
         body1 = TextStyle(
                 fontFamily = RaleWay,
                 fontWeight = FontWeight.ExtraBold,
-                fontSize = 20.sp
+                fontSize = B1.sp
         ),
         body2 = TextStyle(
                 fontFamily = RaleWay,
                 fontWeight = FontWeight.Medium,
-                fontSize = 16.sp
+                fontSize = B2.sp
         ),
         caption = TextStyle(
                 fontFamily = RaleWay,
                 fontWeight = FontWeight.ExtraBold,
-                fontSize = 12.sp
+                fontSize = CAPTION.sp
         ),
 
         numberH1 = TextStyle(
                 fontFamily = OpenSans,
                 fontWeight = FontWeight.Bold,
-                fontSize = 42.sp
+                fontSize = H1.sp
         ),
         numberH2 = TextStyle(
                 fontFamily = OpenSans,
                 fontWeight = FontWeight.Normal,
-                fontSize = 32.sp
+                fontSize = H2.sp
         ),
         numberBody1 = TextStyle(
                 fontFamily = OpenSans,
                 fontWeight = FontWeight.Bold,
-                fontSize = 20.sp
+                fontSize = B1.sp
         ),
         numberBody2 = TextStyle(
                 fontFamily = OpenSans,
                 fontWeight = FontWeight.Normal,
-                fontSize = 16.sp
+                fontSize = B2.sp
         ),
         numberCaption = TextStyle(
                 fontFamily = OpenSans,
                 fontWeight = FontWeight.Bold,
-                fontSize = 12.sp
+                fontSize = CAPTION.sp
         ),
 )
 
